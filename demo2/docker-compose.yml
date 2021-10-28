@@ -106,5 +106,5 @@ services:
       RabbitMq__Hostname: rabbitmq
       RabbitMq__QueueName: history
       RabbitMq__QueueName2: messages
-      RabbitMq__Enabled: true
+      RabbitMq__Enabled: "true"
       ConnectionStrings__DemoContext: "Server=sql_server,1433;Database=Ecommerce;user id=SA;password=_SqLr0ck_"
